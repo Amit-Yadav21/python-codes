@@ -1,0 +1,124 @@
+body{
+    height: 5px;
+    /* background-size: cover; */
+    background-color: whitesmoke;
+}
+.amit{
+    display: flex;
+    background-image: radial-gradient(red 6%, yellow 50%, green);
+
+    /* width: 20px; */
+}
+.menudropdown1{
+    width: 85%;
+    /* height: 100px; */
+    margin: 0px auto;
+    text-align: right;
+    /* opacity: 0.6; */
+    height: 80px;
+}
+.menudropdown1 ul{
+    padding: 0px;
+}
+.menudropdown1 ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    list-style: none;
+    text-align:center;
+    opacity: 0.6;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.menudropdown1 ul li ul{
+    display: none;
+}
+.menudropdown1 ul li:hover> ul{
+    display:block;
+}
+.menudropdown1 ul li:hover{
+    background-color: #32CD32;
+    /* opacity: 0.8; */
+}
+.menudropdown1 ul li ul li{
+    position: relative;
+}
+.menudropdown1 ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+.cards{
+    width: 30%;
+    background-color:white;
+    margin: 10px;
+    display: flex;
+    /* display: inline-block */
+    border-radius: 15px;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+    transition: width 2s, height 4s , transform 2s;
+    width: 50%;
+    height: 100%;
+
+}
+.image img{
+    width: 100%;
+    border-radius: 100px;
+    height: 200px;
+}
+.image img:hover{
+    border-radius: 80px;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.main{
+    display: flex;    
+}
+button{
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+    cursor:pointer;
+    /* transition,width,height,transform use for button */
+    transition: width 2s, height 2s , transform 2s;
+    width: 40%;
+    height: 30%;
+    transform: rotate(360deg);
+}
+
+.search-bar{
+    float: right;
+    padding: 45px 20px;
+    width: 10px;
+}
+.search{
+    height: 42px;
+    width: 15rem;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+.search-btn{
+    height: 42px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgba(13, 179, 221, 0.829);
+    font-size: large;
+    /* color: white; */
+    cursor: pointer;
+
+}

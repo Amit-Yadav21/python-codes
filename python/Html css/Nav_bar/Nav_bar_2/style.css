@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+
+    background-color: rgba(78, 78, 184, 0.486);
+    height: 100px;
+
+
+}
+.logo{
+    float: left;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top:10px;
+    padding-left:30px;
+
+}
+.menu{
+    float: left;
+
+}
+.menu-items{
+    display:inline-block;
+    margin-left: 10px;
+    border: 1px solid rgba(241, 167, 167, 0.938);
+    background-color: rgb(240, 229, 229);
+    border-radius: 12px;
+    padding: 5px;
+    /* color: red; */
+}
+
+
+/* .menu-items:hover{
+    background-color: rgba(123, 151, 153, 0.753);
+    padding: 8px;
+} */
+
+.menu-bar{
+    margin: 50px 0 0 60px;
+
+}
+.menu-link{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.menu-link:hover{
+    background-color: rgba(123, 151, 153, 0.753);
+    color: rgba(124, 133, 133, 0.363);
+    /* margin: 0 8 0 8;
+    padding: 7px; */
+}
+
+.search-bar{
+    float: right;
+    padding: 45px 20px;
+    width: 100px;
+
+}
+.search{
+    height: 40px;
+    width: 20rem;
+    border-radius: 15px;
+
+
+}
+.search-btn{
+    height: 40px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgba(67, 168, 194, 0.829);
+    font-size: large;
+    color: white;
+    cursor: pointer;
+
+}
+
+.main-page{
+    background-image: radial-gradient(rgb(121, 121, 192),rgb(197, 97, 97));
+    height: 1000px;
+}
+
+
+.footer-page{
+    background-color: rgb(205, 240, 238);
+    height: 70px;
+}
+
+
+.menu-bar{
+    color: rgba(241, 18, 18, 0.685);
+    background-color: none;
+}
+.menu.fa{
+    margin-right: 8px;
+}
