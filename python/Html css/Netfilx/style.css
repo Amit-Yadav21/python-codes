@@ -113,12 +113,6 @@ hr{
     height: 400px;
     /* margin-bottom: 200px; */
 }
-/* .Frist_main_image img{
-    height: 80px;
-}
-.Frist_main_p{
-    color: white;
-} */
 .second{
     grid-area: second;
     background-color: black;
@@ -215,6 +209,9 @@ hr{
     grid-area: footer;
     background-color: black;
 }
+/* .footer_two{
+    padding: 20px;
+} */
 .footer_two p{
     margin-top: 25px;
     color:grey;
@@ -224,27 +221,38 @@ hr{
     margin-top: 65px;
     margin-left: 207px;
 }
-.footer_details_one{
+.footer_two{
+    margin-left: 210px;
     color: white;
-    float: left;
-    margin-left: 207px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.footer_details_two{
-    color: white;
+.footer_three{
     float: left;
-    margin-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
-.footer_details_three{
-    color: white;
-    float: left;    
-    margin-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+.footer_fourth{
+    margin-top: 25px;
+    height: 10px;
+    display: block;
+    color: grey;
 }
-.footer_details_four{
+.footer_fourth:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#one{
+    margin-left: 120px;
+}
+.langg{
+    height: 30px;
+    background-color: black;
+    color:gray;
+}
+.la{
+    height: 300px;
+    margin: 25px;
+    border: 2px;
+}
+.ni{
     color: white;
-    margin-left: 100px;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
